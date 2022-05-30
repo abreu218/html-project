@@ -1,0 +1,88 @@
+body {
+    background-color: #36383F;
+}
+
+.green-button {
+    display: flex;
+	background-color: #4BCE79;
+	border-radius:4px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:15px 15px;
+	text-decoration:none;
+    margin-right: 15px;
+}
+
+.learn-button {
+    display: flex;
+	background-color: black;
+	border-radius:4px;
+	border:1px solid rgb(32, 32, 32);
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:15px 15px;
+	text-decoration:none;
+}
+
+.body-buttons{
+    display:grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+    column-gap: normal;
+    padding: 10px 0px 50px 30px;
+}
+
+.main-body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 50px 0px 50px 30px;
+}
+
+.main-text-one {
+    font-size: 3em;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.main-text-two {
+    font-size: 2.5em;
+    font-weight: 100;  
+}
+
+.code-pen-projects {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: right;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top:20px;
+    padding-right: 370px;
+    justify-content: flex-end;
+}
+
+.code-pen{
+    color:lightskyblue;
+}
+
+.webpage-image img{
+    vertical-align: baseline;
+    float: right;
+    display: flex;
+    height: 500px;
+    padding-top: 7px;
+   margin-right: -10px;
+  box-shadow: 50px -1px 50px 34px rgba(0,0,0,0.31);
+  box-shadow: -20px -16px 50px 31px rgba(0,0,0,0.31);
+  
+}

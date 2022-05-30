@@ -1,0 +1,113 @@
+.navigation-wrapper > .left-column > .logo img {
+    width: 200px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation-wrapper {
+    height:75px;
+    background-color: black;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-column {
+    font-family: 'Roboto', sans-serif;
+    color:goldenrod;
+    font-weight: 900;
+    
+}
+
+/* Links */
+.links-wrapper {
+    display: flex;
+    font-size: 20px;  
+    flex-direction: row;
+    margin-left: -5px;
+    margin-right: 150px; 
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-wrapper >.nav-link {
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.links-wrapper>.nav-link a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper>.nav-link a:hover {
+    color: gray;
+   
+}
+
+.links-wrapper > .nav-link-two {
+        width: 80px;
+        text-align: center;
+        padding-left: 50px;
+        font-size: 20px;
+        text-align: center;
+}
+.links-wrapper > .nav-link-two a{
+    color:#868a9e;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links-wrapper > .nav-link-two a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+.center-column >.explore{
+    padding-left: 17.5px; 
+    font-size: 1.2em;   
+    width: 80px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #36383F;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    margin-right: 12px;
+    
+}
+.right-column{
+    flex-direction: row;
+    align-items: flex;
+}
+
+.button i {
+    color:limegreen;
+    font-size: 1.2em;
+}
+  
+.glass {
+    font-size: 2em;
+    color:#767980;
+    padding: 10px 10px 0px 10px;
+    justify-content:space-around;
+    text-align: center;
+    margin-right: 10px;
+}
